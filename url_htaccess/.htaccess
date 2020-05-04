@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^index index.php
+RewriteRule ^tes/([A-Za-z]+) index.php?data=$1
+</IfModule>
